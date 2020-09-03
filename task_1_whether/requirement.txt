@@ -1,0 +1,5 @@
+requests
+pandas
+xlwings
+time
+current.city.list.json.gz/ or any other as you needed
