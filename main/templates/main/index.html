@@ -57,6 +57,10 @@
         <h5>pressure : {{pressure}} </h5>
         <h5>humidity : {{humidity}}</h5>
     </div>
+    {% else %}
+      <div class="col-md-6 col-md-offset-3">
+        <h3>{{city_name}}</h3>
+      </div>
     {% endif %}
   </div>
 {% endblock content %}
